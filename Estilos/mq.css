@@ -1,0 +1,18 @@
+/* estilos para smartphones */
+
+@media screen and (max-width: 831px) /* Regla */{
+ /* Menu se renderice con los cambios del tamaño de la pantalla */
+    
+    .contenedor{
+       width: 100%;
+    }
+    
+    nav{
+      width: 100%;
+      height: 280px;
+      background-color:  rgba(235, 180, 78, 0.883);
+    }
+    nav ul{
+        padding: top 10px; ;
+    }
+}

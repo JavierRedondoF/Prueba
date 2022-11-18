@@ -1,0 +1,116 @@
+body{
+    font-family: 'Merriweather', serif;/* Para usar la familia de fuentes debe cargarse esta regla en el CSS */
+    max-width: 900px;
+    margin: 0 auto;
+}
+nav{ 
+    width: 100%;
+    height: 250px;
+    background-color: rgba(235, 180, 78, 0.883);
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.8s all;
+    padding: 18px 20px
+}
+nav ul li:hover{/* Cambia el elemento de color */
+    background-color: white}
+
+    .img-logo{/* Se palica donde solo si llama */
+        width: 180px;
+        padding: 20px;
+        padding-left: 5%;
+        position: relative;
+        top: 20px;
+    }
+nav ul {
+    padding-top: 5 px; /* Relleno superior */
+    display: inline-flex;
+}
+nav ul li a {
+    text-decoration-line: none;
+    text-decoration: none;
+    color: black;
+}
+h2,figure, ul{
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+} /* Las imagenes ocupan no pasn de una maximo no se salen de margen */
+
+/* Estilos */
+.seccion1{
+    margin-top: 450px;
+    background-color: rgba(240, 193, 107, 0.616);
+}
+.video{
+    width: 55%;
+    padding: 15px; 
+}
+.texto{
+    width: 32%;
+    height: 288px;
+    padding: 15px;
+    vertical-align: top;
+    text-align: justify;
+}
+article{
+    padding: 30px;
+    background-color: rgba(240, 220, 107, 0.582);
+}
+article h2{ 
+    border-bottom: 1px solid black ;
+} 
+.texto,.video{
+    display:inline-block;
+}
+.boton{
+    text-align: center;
+    background-color: rgb(179, 98, 32);
+    padding: 10px;
+}
+.boton a {
+    text-decoration: none;
+    color:whitesmoke
+}
+.boton:hover{
+    background: pink;
+
+}
+
+/* Articles */
+
+section{
+    background-color: rgba(235, 180, 78, 0.883);
+    padding: 15px;
+    text-align: center;
+}
+
+section h2 {
+    border-bottom: 1px solid black;
+}
+.img-art{
+    width: 1000px;
+    max-width: 100%;
+}
+.cont-art{
+    width: 100%;
+    vertical-align: top;
+    text-align: center;
+}
+footer{
+    background-color: rgba(235, 180, 78, 0.883);
+color: aliceblue;
+line-height: 40px;
+text-align: center;
+padding: 45px;
+
+}
+footer div a{
+    text-decoration: none;
+    text-decoration-line: none;
+    color: white;
+}
